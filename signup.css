@@ -1,0 +1,221 @@
+body {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f4f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #777777;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container .image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .image img {
+  width: 302.77px;
+  height: 100px;
+}
+
+.sub-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 432px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+  border: none;
+}
+
+.heads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e1dbdb;
+  ;
+  padding: 10px;
+  height: 50px;
+}
+
+.heads h2 {
+  color: #1c1e21;
+}
+
+.heads>h5 {
+  margin-top: -10px;
+  color: #1c1e21;
+  font-weight: lighter;
+}
+
+.form {
+  padding: 10px 10px;
+}
+
+.textInputs {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.textInputs input {
+  width: 185px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: rgb(189, 199, 216);
+  /* padding-left: 5px; */
+
+}
+
+.textInputs input::placeholder {
+
+  padding-left: 7px;
+
+}
+
+.birth-of-date {
+  margin-top: -10px;
+}
+
+.birth-of-date p {
+  display: flex;
+  align-items: center;
+  font-size: smaller;
+  padding-left: 7px;
+}
+
+p .image {
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+  cursor: pointer;
+
+}
+
+.DateInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.DateInput select {
+  width: 125px;
+  height: 36px;
+  border-radius: 5px;
+  border: 1px solid #777777;
+}
+
+option {
+  color: #777777;
+}
+
+.gender p {
+  display: flex;
+  align-items: center;
+  font-size: smaller;
+  padding-left: 7px;
+
+}
+.gender p img{
+  cursor: pointer;
+
+}
+
+.genderInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.genderInput label {
+  border: 1px solid #777777;
+  width: 125px;
+  height: 36px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  height: 120px;
+}
+
+.auth input {
+  width: 390px;
+  margin-bottom: 10px;
+  height: 55px;
+  border: 1px solid;
+  border-color: rgb(189, 199, 216);
+  border-radius: 6px;
+  padding-left: 7px;
+}
+.auth input::selection {
+  padding-left: 30px;
+}
+
+.auth input::placeholder {
+  padding-left: 7px;
+}
+
+.paragraph {
+  margin-top: -15px;
+  margin-left: 8px;
+}
+
+.paragraph p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  font-size: 11px;
+}
+
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.signUp button {
+  width: 194px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+  background-color: #00a400;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+
+
+}
+
+.signUp button:hover {
+  color: #ffffffd2;
+
+
+}
+
+.already {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.already a {
+  text-align: center;
+  text-decoration: none;
+  color: #1877f2;
+}
